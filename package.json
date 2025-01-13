@@ -1,0 +1,23 @@
+{
+  "name": "element-plus-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.5.0",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass": "^1.83.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  }
+}

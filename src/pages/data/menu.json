@@ -1,0 +1,10 @@
+[
+  {
+    "name": "button",
+    "label": "El Button"
+  },
+  {
+    "name": "message",
+    "label": "El Message"
+  }
+]
