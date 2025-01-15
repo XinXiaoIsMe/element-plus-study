@@ -1,8 +1,8 @@
 export interface ButtonProps {
-  type: '' | 'default' | 'primary' | 'success' | 'warning' | 'danger' | 'info';
-  round: boolean;
-  plain: boolean;
-  disabled: boolean;
+  type?: '' | 'default' | 'primary' | 'success' | 'warning' | 'danger' | 'info';
+  round?: boolean;
+  plain?: boolean;
+  disabled?: boolean;
 }
 
 export const defaultProps: Partial<ButtonProps> = {
