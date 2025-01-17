@@ -1,0 +1,24 @@
+.el-message {
+  width: 300px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 0 10px 10px;
+  box-sizing: border-box;
+  transition: opacity 0.3s, transform 0.4s, top 0.4s;
+}
+
+// 不能在active时设置，否则message消失时会抖动
+// .el-message-fade-enter-active,
+// .el-message-fade-leave-active {
+//   transition: opacity 0.3s, transform 0.4s, top 0.4s;
+// }
+
+.el-message-fade-enter-from,
+.el-message-fade-leave-to {
+  opacity: 0;
+  transform: translate(-50%, -100%);
+}
