@@ -33,7 +33,3 @@ function handleClick (evt: MouseEvent) {
   emit('click', evt);
 }
 </script>
-
-<style lang="scss">
-@import "./button.scss";
-</style>

@@ -53,7 +53,3 @@ onMounted(() => {
   visible.value = true;
 });
 </script>
-
-<style lang="scss">
-@import "message.scss";
-</style>
