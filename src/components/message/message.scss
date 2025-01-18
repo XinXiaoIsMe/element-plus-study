@@ -11,7 +11,10 @@
   transition: opacity 0.3s, transform 0.4s, top 0.4s;
 }
 
-// 不能在active时设置，否则message消失时会抖动
+// 不能在active时设置，因为上一个message消失时，造成当前message的top变化后，此时
+// 当前的message的visible没有变化，不存在el-message-fade-enter-active和
+// el-message-fade-leave-active，不存在过渡效果，会导致此时message移动时出现
+// 闪现抖动效果
 // .el-message-fade-enter-active,
 // .el-message-fade-leave-active {
 //   transition: opacity 0.3s, transform 0.4s, top 0.4s;
